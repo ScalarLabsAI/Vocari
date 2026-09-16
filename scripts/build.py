@@ -31,7 +31,7 @@ def post_cards(posts):
  return '<div class="cards-three">'+''.join(f'<article class="article-card"><span class="article-category">{esc(p["category"])} · {esc(p["readTime"])} min read</span><h3><a href="/updates/{p["slug"]}/">{esc(p["title"])}</a></h3><p>{esc(p["description"])}</p><a class="text-link" href="/updates/{p["slug"]}/">Read the guide <span aria-hidden="true">↗</span></a></article>' for p in posts)+'</div>'
 posts=[json.loads(p.read_text()) for p in sorted((ROOT/'content/posts').glob('*.json'))]
 posts=[p for p in posts if p.get('status')=='ready-for-review']
-page('/','Keep the conversation going','Private, nearby, continuous two-way conversation through Bluetooth earbuds or headsets. Supports Android–iPhone conversations. No Wi-Fi router or internet required.',read('content/home.html').replace('{{POST_CARDS}}',post_cards(posts)))
+page('/','Keep the conversation going','Private, nearby, continuous two-way conversation through Bluetooth earbuds or headsets. Supports Android–iPhone conversations. No Wi-Fi router or internet required.',read('content/home.html').replace('{{POST_CARDS}}',post_cards(posts)),extra='<meta name="fo-verify" content="56690dc9-c94a-45d2-a057-f271be1a59a1" />')
 for source in sorted((ROOT/'content/pages').glob('*.json')):
  p=json.loads(source.read_text()); page(p['path'],p['title'],p['description'],read(p['body']),p.get('active',''),p.get('kind','WebPage'))
 if posts:
