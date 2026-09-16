@@ -23,11 +23,16 @@
       "activation": "pending",
       "placements": {}
     },
-    "image": null,
+    "image": {
+      "src": "/assets/images/products/bose-qc-ultra-earbuds-2-black-owner-edited.webp",
+      "alt": "Black Bose QuietComfort Ultra Earbuds (2nd Gen), with one earbud beside the open charging case",
+      "width": 960,
+      "height": 640
+    },
     "imagePermission": {
-      "status": "not-cleared",
-      "source": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
-      "grant": null
+      "status": "approved",
+      "source": "Owner-supplied photograph with owner-approved AI-assisted landscape edit; docs/PRODUCT_PHOTO_GRANTS.md",
+      "grant": "Clay supplied the photograph, requested the landscape edit, reviewed the displayed result, and explicitly approved publication on getvocari.app on 2026-09-16. Authorized optimized local hosting; this is not a manufacturer or affiliate-network creative."
     },
     "sources": [
       "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html"
@@ -166,11 +171,16 @@
       "activation": "pending",
       "placements": {}
     },
-    "image": null,
+    "image": {
+      "src": "/assets/images/products/jbl-endurance-peak-4-black-owner-edited.webp",
+      "alt": "Black JBL Endurance Peak 4 earbuds, one beside the open charging case showing its ear hook",
+      "width": 960,
+      "height": 640
+    },
     "imagePermission": {
-      "status": "not-cleared",
-      "source": "https://www.jbl.com/ENDURANCE-PEAK-4.html",
-      "grant": null
+      "status": "approved",
+      "source": "Owner-supplied photograph with owner-approved AI-assisted landscape edit; docs/PRODUCT_PHOTO_GRANTS.md",
+      "grant": "Clay supplied the photograph, requested the landscape edit, reviewed the displayed result, and explicitly approved publication on getvocari.app on 2026-09-16. Authorized optimized local hosting; this is not a manufacturer or affiliate-network creative."
     },
     "sources": [
       "https://www.jbl.com/ENDURANCE-PEAK-4.html"

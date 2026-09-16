@@ -25,3 +25,7 @@ Rights research on 2026-09-16:
 For every image added, record exact model/variant, asset origin, license/grant URL or non-sensitive permission reference, permission date, permitted use/hosting/cropping, attribution, expiry, linked merchant and any refresh requirement. Keep private contracts and account secrets outside this public repo.
 
 2026-09-16 clarification: no Wi-Fi router is required, regardless of internet service. Wi-Fi must remain enabled for the direct phone connection; no shared router/network is needed. This is explicit in home, support and guides.
+
+## Approved owner-photo publication — 2026-09-16
+
+The initial all-slots-pending status above is superseded for Bose QuietComfort Ultra Earbuds (2nd Gen), black, and JBL Endurance Peak 4, black. Clay supplied original photographs, requested landscape edits, reviewed the disclosed AI-assisted results and explicitly approved publishing both cards. See [PRODUCT_PHOTO_GRANTS.md](PRODUCT_PHOTO_GRANTS.md) for provenance, filenames, dimensions and permissions. No Amazon images were used. Other eight products remain uncleared; purchase destinations are unchanged.
