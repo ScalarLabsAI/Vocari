@@ -40,3 +40,8 @@ For each activation, add the owner-confirmed link-use approval date, public dest
 - 2026-09-16: Read the existing research, opened the Amazon US signup route and prepared current live-site answers. Requested the owner's non-sensitive existing-account stage. No account approval or payment completion is inferred.
 - 2026-09-16: All ten catalog records have `affiliate:false`, `network:null`, pending activation and no placement overrides. Zero products are monetized. No live website changes made for this onboarding step.
 - 2026-09-16: Before first activation, correct generator retailer labels and validate activation state; update privacy disclosure tense; verify issued URLs and live output. See AFFILIATES.md.
+
+
+## Owner-supplied Amazon tracking ID — 2026-09-16
+
+Clay supplied the public Associates tracking ID `vocari-20` and authorized tagging existing Amazon links, adding the Associates disclosure and publishing. This supersedes the earlier lack of an owner-supplied ID; it does not establish final Amazon review or tax/payment status. The live catalog audit found zero Amazon URLs and ten ordinary manufacturer purchase destinations. Because Clay also required preserving every non-Amazon URL, no product destination was converted and zero products are monetized. The account-level disclosure is being added above the catalog, but no current purchase URL contains `vocari-20`. Exact Amazon product destinations would require separately authorized additions or replacements. See `REVIEW.md` for audit and deployment evidence.
