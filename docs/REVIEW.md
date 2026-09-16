@@ -3,7 +3,7 @@
 ## Scope and state
 Separate checkout `/Users/xcodetest/Documents/Projects/Vocari-Website`; branch `codex/website-refresh`; baseline `0bd97021afb41eb514dc9ac721a48f1e9d1c3851`. Mobile checkout remains `integration/active-session-ui-consolidation` at `7e98992f1011da4d2c49be5b8bac5976e37ca4df` with pre-existing untracked `release/`; website work does not modify it.
 
-GitHub Pages deployment 5754701261 succeeded 2026-08-05 from main/baseline to getvocari.app. Safety branch retains that commit. Current work is local and must not merge or publish without Clay's review. Push credentials were unavailable at the read-only access check; local work does not require them.
+GitHub Pages deployment 5754701261 succeeded 2026-08-05 from main/baseline to getvocari.app. Safety branch retains that commit. The initial review was local. Clay subsequently approved replacing the live site and explicitly authorized merging and pushing main on 2026-09-16 (see deployment authorization below). Push credentials were unavailable at the read-only access check; local work does not require them.
 
 ## Material findings
 - The original /earbuds page contains six products in JavaScript and an initial 0-candidate HTML shell. The observed zero was not evidence of no records. The new page ships all cards in HTML; filtering is progressive enhancement.
@@ -43,3 +43,10 @@ Clay support-copy correction, 2026-09-16: QR/Join Code troubleshooting may requi
 Documentation check: meaningful website findings and restrictions are recorded above; commercial policy, catalog/image/link maintenance and public application-source research are persisted in this repository. No mobile architectural facts were changed, and no mobile docs were edited.
 
 Clay final wording, 2026-09-16: replaced “Although seldom required…” with “As a last resort, close the app completely on both phones, reopen it, and start a fresh Host session.” This supersedes the earlier frequency wording above.
+
+## Deployment authorization — 2026-09-16
+Clay approved publishing the current redesign through ScalarLabsAI/Vocari’s existing GitHub Pages deployment from main, with the previous live commit retained as a rollback reference. The mobile-app repository must remain untouched. Ordinary manufacturer links and no unlicensed product photos are approved for launch; affiliate activation and product-photo permissions are follow-up items, not deployment blockers. The three prepared guides and supplied app screenshots are included in the approved current version.
+
+The latest explicit store instruction supersedes the earlier ambiguous availability clarification: retain “Awaiting Apple review” for iPhone until public availability is confirmed. Cross-platform support and direct phone connection without a Wi-Fi router remain current capability descriptions. Generated HTML, CSS, JavaScript, all site assets, source content and the standalone Python generator are tracked in this repository; no temporary assembly script is needed to rebuild.
+
+Pre-deployment check: regenerated all output from tracked source; build and git diff --check passed. Home, earbuds, support and updates passed isolated Chromium checks at 1440, 390 and 320 px, including pending Apple status, canonical URLs, images, layout, catalog/search/reset/manufacturer destinations, mobile navigation, support FAQ and Google Play link; no JavaScript page errors. Mobile checkout remains unchanged at the recorded branch/HEAD with only its pre-existing untracked release directory.
