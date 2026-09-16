@@ -41,3 +41,5 @@ Clay support-copy correction, 2026-09-16: QR/Join Code troubleshooting may requi
 - These are website checks, not physical headset/app testing. GitHub Pages remote deployment is deliberately untested because nothing is published.
 
 Documentation check: meaningful website findings and restrictions are recorded above; commercial policy, catalog/image/link maintenance and public application-source research are persisted in this repository. No mobile architectural facts were changed, and no mobile docs were edited.
+
+Clay final wording, 2026-09-16: replaced “Although seldom required…” with “As a last resort, close the app completely on both phones, reopen it, and start a fresh Host session.” This supersedes the earlier frequency wording above.
