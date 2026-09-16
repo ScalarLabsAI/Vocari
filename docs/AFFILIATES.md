@@ -1,6 +1,6 @@
 # Vocari affiliate research — 2026-09-16
 
-Public-source research only. No account was created, application submitted, agreement accepted, credential accessed, or third party contacted. Read ScalarLabs Global AGENTS.md and confirmed SCALARLABS_VAULT.md. This is an operator handoff, not website copy; public rate references are recorded here for maintenance and excluded from Pages; private negotiated terms and performance data must remain outside this public repository.
+Initial public-source research only: no account was created, application submitted, agreement accepted, credential accessed, or third party contacted during that research. See [the activation status record](AFFILIATE_STATUS.md) for current owner-confirmed stages. Read ScalarLabs Global AGENTS.md and confirmed SCALARLABS_VAULT.md. This is an operator handoff, not website copy; public rate references are recorded here for maintenance and excluded from Pages; private negotiated terms and performance data must remain outside this public repository.
 
 ## Current program facts and application routes
 
@@ -62,21 +62,72 @@ Once actually enrolled, Amazon requires the prominent statement: “As an Amazon
 The description must match what is publicly live when applying. Until the redesigned guide/articles are approved and published, call them planned, not already live. Answer quantitative fields only with owner-provided measurements; use “not yet measured” or the actual allowed new-site option where truthful. Do not invent monthly traffic, audience size, an operating history, affiliation, conversions, test results or sales promises. Owner must supply accurate legal/business identity, country, contact, payment/tax details, current traffic if required, and personally accept terms. No forms were inspected behind authentication, so exact field labels beyond documented network navigation may vary.
 
 
-## Application preparation status for this preview
-No approved network credentials or affiliate IDs were found in the original website. No existing analytics configuration was found. All catalog destinations are ordinary manufacturer URLs. No forms have been submitted and no agreement accepted.
+## Live-site application answers and next steps — 2026-09-16
 
-Use this accurate description UNTIL the preview is approved and public:
+The redesign is now public at https://getvocari.app, deployed from commit `617496783a81b8eaff11f84cc644e937fe3e1f63`. Earlier preview-only wording in this research is historical. The live site has ten researched candidate products, three original guides, setup/support, and policy links. All product destinations remain ordinary manufacturer links. There is no installed analytics service and no measured traffic claim. Application form labels below are suggested mappings; the current authenticated form has not been inspected.
 
-“getvocari.app is the public website for Vocari, a nearby voice communication app. It currently includes a homepage and earbud/headset candidate guide. We are preparing an expanded equipment guide with clearly distinguished manufacturer specifications and Vocari testing status, plus original setup and educational articles. We plan to monetize suitable contextual product links with prominent affiliate disclosures. The redesign is currently in local review and has not been published.”
+Clay requested guided activation in this order: Amazon Associates, CJ, FlexOffers, Impact. Clay completes sign-in, agreements, identity verification, tax and payment information in provider websites. Approved link integration and publishing are authorized once the program/property/merchant permits those specific links. Do not label provisional enrollment as final approval. Track stages and live evidence in [AFFILIATE_STATUS.md](AFFILIATE_STATUS.md); record no private account information.
 
-Promotional methods for owner review: contextual editorial links on getvocari.app and approved product creatives after permission. Planned visitors are direct referrals and organic search. No paid search, email list, social audience, traffic quantity, conversion history or testing claim is asserted. Enter real measured figures where a form requires them; never invent numbers to get accepted.
+### Start with Amazon US Associates
 
-Owner-only remaining steps:
-1. Choose/reuse an account at each linked network. Complete identity/email/property verification through its secure site.
-2. Register the exact public property https://getvocari.app, correct region and accurate legal business/contact details. Apply when its public content matches the description; previews are not public traffic properties.
-3. Inspect the actual merchant offer, assigned rate, permitted promotion, image/creative rights, attribution, returns and payment terms. Bose CJ and JBL direct US availability remain unconfirmed; compare verified alternatives.
-4. Personally enter payment/tax details and accept agreements. Do not send passwords, banking information or tax documents through chat or this repository.
-5. Once approved, generate product links with placement IDs using the network's own tool and obtain approved images. Provide those public links/assets plus non-sensitive permission references for activation.
-6. Review the resulting disclosure and clicks before publishing. Amazon's application clock and content requirements make a finished public site important; three original preview guides are not a promise of acceptance.
+Exact application route: [Amazon US Associates signup](https://affiliate-program.amazon.com/signup). If already enrolled, use [Associates Central](https://affiliate-program.amazon.com/) with the existing account rather than creating a duplicate. This is the US program for Amazon.com links; owner confirms the appropriate marketplace before applying elsewhere.
 
-No network account access was available to complete authenticated forms. Public research and application copy are prepared as far as access permits; no signup completion or rate assignment is implied.
+| Application topic, if asked | Prepared answer |
+| --- | --- |
+| Public business/publisher name | ScalarLabs |
+| Legal entity, payee, address, telephone, tax status | Owner supplies the exact legal details directly to Amazon. Do not assume ScalarLabs is the legal payee or invent a corporate suffix. |
+| Website name | Vocari |
+| Website URL / Website and Mobile App List | https://getvocari.app/ — the property hosting the links. Do not add the Vocari mobile app or scalarlabs.ai unless links will actually be placed there and those properties are separately eligible. |
+| Preferred Associates Store ID | Request `getvocari` if available. This is a proposed label, not an issued ID; use only Amazon's actual assigned ID in generated links. |
+| Site type | Content / niche website with original educational articles and an equipment guide; choose the closest option actually offered. |
+| Topics | Bluetooth earbuds and headsets; nearby voice communication; setup and compatibility guidance. |
+| Product categories | Electronics / headphones / headsets, where offered. |
+| Intended audience | Adults researching earbuds or headsets for everyday, professional, sports and suitable industrial contexts. The website is not directed primarily at children under 13. |
+| Reason for joining | Earn affiliate commissions from relevant equipment links while helping readers choose suitable earbuds and headsets. |
+| Promotion | Planned organic search and direct visits to educational and product-guide pages. Only select other channels if the owner actually uses them. |
+| Current monetization | No active affiliate links or paid advertising on getvocari.app. Ordinary manufacturer purchase links are already present. |
+| Link creation, if asked | Links inserted manually into a custom static website. |
+| Traffic, sales, existing audience | Not yet measured in the current website setup. Use real owner measurements if available; do not equate unknown with zero or fabricate a number to fit a required field. |
+| How you heard about the program | Owner answers truthfully; do not select a referral or relationship that did not occur. |
+
+**Copy-ready site/content description:**
+
+> ScalarLabs publishes getvocari.app, the website for Vocari, a nearby voice communication app. We publish original setup guides, practical use cases, and a researched guide to Bluetooth earbuds and headsets for personal, professional, sports, and industrial settings. The guide explains microphone and audio requirements and distinguishes manufacturer specifications from documented Vocari testing. Products without completed compatibility evidence are clearly labeled untested. We plan to use relevant, clearly disclosed Amazon product links to help readers find equipment. Our current site includes ten product candidates and three original guides.
+
+**Short version for a smaller field:**
+
+> Vocari by ScalarLabs publishes practical guides to nearby voice communication and Bluetooth earbuds and headsets. We help readers compare documented features, understand compatibility limits, and find suitable equipment through clearly disclosed product links.
+
+**Enrollment versus final approval:** [Amazon's application-review guidance](https://affiliate-program.amazon.com/help/node/topic/G8TW5AE9XL2VX9VM) says review follows at least three qualifying sales within 180 days; personal purchases do not count. Amazon recommends substantial original content, with ten posts as a rule of thumb. This site currently has three guides, so approval is not assured. Do not claim ten posts or manufacture purchases. Record initial enrollment, permission to use issued links, and final review as distinct stages. If the owner wants to wait for final review before any links go live, explain that this prevents this site from producing the qualifying referrals needed for that review.
+
+### Generate the first Amazon product link when permitted
+
+1. Owner confirms that Amazon has enrolled the account, lists getvocari.app, and permits Special Links. Record final review separately if it is still pending.
+2. In Associates Central, use Account Settings → Manage your Tracking IDs to create a site/placement label if desired. Request a label such as `vocaricatalog`, subject to Amazon availability and format. Record only the actual issued public tracking ID embedded in a link; never invent the suffix or reuse an ID from an example.
+3. Sign in to Amazon.com with the enrolled account. Find the exact model and variant from our catalog. Begin with JLab Work Buds if an exact listing is available; otherwise choose another exact catalog match. Manufacturer gallery links are not Amazon listings and cannot simply be given a tag.
+4. On that product page, use SiteStripe → Get Link → Text. Select the correct issued tracking ID and copy the full generated link when offered. Amazon's generated short link is also acceptable; its destination and attribution need verification. [Official SiteStripe instructions](https://affiliate-program.amazon.com/help/node/topic/GJMMT7G4C8K4Y3AY).
+5. Supply only the product name and public generated affiliate link. No login URL, session cookie, password, API key, private dashboard/report or bank/tax record is needed.
+6. The implementation must preserve the issued URL, use an accurate retailer CTA (for example View at Amazon), label the affiliate link, and render `rel="sponsored noopener"`. Add the required disclosure before product cards: “As an Amazon Associate I earn from qualifying purchases.” Also retain clear commission language. [Amazon disclosure requirement](https://affiliate-program.amazon.com/help/operating/agreement).
+7. Check the exact model/variant, selected tracking ID and generated markup in preview. Commit the real output, publish through the existing main/Pages workflow, wait for deployment, and verify the live card's href, destination, retailer text and disclosures on desktop/mobile. Only then mark that product's live-link status monetized. This does not mean a sale occurred.
+8. Use the issued tag and Associates reporting for attribution. Amazon says its Link Checker is for manually created/modified links and is not the validator for links generated by Associates Central. [Official link-tagging guidance](https://affiliate-program.amazon.com/help/node/topic/G6253GFSARDQENZR). A working destination and correct tag do not prove an eventual commission; finalized network reports do.
+
+### Activation implementation notes
+
+Read-only inspection found two changes required before the first affiliate activation: `scripts/catalog.py` currently ignores `purchase.activation` when choosing a placement override, and its CTA names the product brand even if the destination is another retailer. Add a small validation gate for active/approved link configuration and an explicit retailer label. Preserve current manufacturer URLs for fallback. Use the same validated affiliate state for card labels and disclosure. Update the privacy landing page's future-tense affiliate wording at first activation. Keep testing status and image rights independent of commercial activation.
+
+The existing browser product-click event is memory-only; it provides no stored click, visit, sale or revenue measurement. Issued network links can provide provider-side attribution without installing a tracker on the site. Do not call the existing event analytics or invent a sales result. Do not copy Amazon product photos, prices or reviews as part of text-link activation.
+
+### Continue in the requested order
+
+After the Amazon application/link stage is resolved, continue through CJ, FlexOffers and Impact with the same truthful business/site description. Network acceptance and each merchant's permission are separate checkpoints. Use the official entry routes above, and record network/property review and merchant review separately. Select a single approved primary destination per card; do not overwrite an existing approved link merely because another program accepts the site. Keep all unapproved products on ordinary manufacturer links.
+
+
+Official next-program routes rechecked 2026-09-16:
+
+| Step | Entry route | After sign-in / onboarding |
+| --- | --- | --- |
+| CJ | [Publisher signup](https://public.cj.com/signup/publisher) | Register getvocari.app as the content property. Then apply separately to Soundcore CID 7382109 and Sony advertiser 6068899 using their branded routes above. An account or branded signup does not itself prove merchant acceptance. |
+| FlexOffers | [Publisher signup](https://publisherprobeta.flexoffers.com/signup/accountInfo) | Owner verifies email/mobile and site ownership. After network/traffic-source review, use Advertisers to apply to ISOtunes US and evaluate Sony/Bose offers for getvocari.app. [Official advertiser steps](https://supportbeta.flexoffers.com/knowledge/how-do-i-apply-for-advertiser-programs). |
+| Impact / Shokz | [Shokz US direct application](https://app.impact.com/campaign-promo-signup/SHOKZ-US.brand) from [Shokz's official program](https://shokz.com/pages/become-an-affiliate) | Reuse the owner's Impact partner account if present, register/verify the website property and apply to Shokz. If starting through the general network, use [Impact sign-in / Partner signup](https://app.impact.com/login.user). Direct brand acceptance and full marketplace access are distinct. |
+
+Use the actual current form options and owner-confirmed traffic. No universal traffic minimum or merchant approval is inferred. Copy-ready descriptions above can be reused with the selected merchant/network name replacing Amazon; do not claim existing enrollment, negotiated terms or accepted image permissions.
