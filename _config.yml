@@ -1,0 +1,9 @@
+# Keep maintenance/source material out of the GitHub Pages output.
+exclude:
+  - AGENTS.md
+  - README.md
+  - README_UPLOAD.txt
+  - docs
+  - content
+  - scripts
+  - tests

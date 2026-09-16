@@ -1,0 +1,361 @@
+[
+  {
+    "id": "bose-qc-ultra-earbuds-2",
+    "brand": "Bose",
+    "name": "QuietComfort Ultra Earbuds (2nd Gen)",
+    "categories": [
+      "personal"
+    ],
+    "type": "in-ear",
+    "summary": "A sealed fit with adjustable listening ANC.",
+    "features": [
+      "Listening noise cancellation with adjustable modes.",
+      "Built-in microphones and Bluetooth phone calling.",
+      "IPX4 water resistance; either earbud can be used for calls."
+    ],
+    "consideration": "Listening ANC reduces what you hear. Call-microphone processing affects what the other person hears. Neither is a Vocari test result.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+      "grant": null
+    },
+    "sources": [
+      "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "isotunes-free-2",
+    "brand": "ISOtunes",
+    "name": "FREE 2.0",
+    "categories": [
+      "industrial"
+    ],
+    "type": "hearing-protection",
+    "summary": "True wireless earbuds with rated attenuation.",
+    "features": [
+      "Manufacturer-rated 25 dB NRR with foam tips.",
+      "22 dB NRR with supplied double-flange silicone tips.",
+      "Bluetooth calling, noise-isolating microphones and IP45 rating."
+    ],
+    "consideration": "Choose FREE 2.0, not FREE 2.0 Listen Only, which has no microphone. Protection depends on correct fit and the specified tips.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://isotunes.com/products/isotunes-free-2",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://isotunes.com/products/isotunes-free-2",
+      "grant": null
+    },
+    "sources": [
+      "https://isotunes.com/products/isotunes-free-2",
+      "https://isotunes.com/pages/manuals-free-2-0"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "isotunes-link-2",
+    "brand": "ISOtunes",
+    "name": "LINK 2.0 — Headband",
+    "categories": [
+      "industrial",
+      "enterprise"
+    ],
+    "type": "hearing-protection",
+    "summary": "Over-ear hearing protection with calling.",
+    "features": [
+      "Headband model: manufacturer-rated 25 dB NRR.",
+      "Bluetooth calling with a built-in microphone.",
+      "Optional boom microphone sold separately; IPX4 rating."
+    ],
+    "consideration": "The Helmet Mount variant has a different rating. Check the exact model and protective-equipment fit before buying.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://isotunes.com/products/isotunes-link-2",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://isotunes.com/products/isotunes-link-2",
+      "grant": null
+    },
+    "sources": [
+      "https://isotunes.com/products/isotunes-link-2"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "isotunes-pro-2",
+    "brand": "ISOtunes",
+    "name": "PRO 2.0",
+    "categories": [
+      "industrial",
+      "enterprise"
+    ],
+    "type": "hearing-protection",
+    "summary": "A neck-cable design for a working day.",
+    "features": [
+      "Manufacturer-rated 27 dB NRR.",
+      "Noise-isolating call microphone and Bluetooth dual pairing.",
+      "Ear hooks, neck cable and IP67 rating."
+    ],
+    "consideration": "The NRR is a US laboratory rating, not a guaranteed real-world reduction. Follow fitting instructions and workplace requirements.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://isotunes.com/products/isotunes-pro-2",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://isotunes.com/products/isotunes-pro-2",
+      "grant": null
+    },
+    "sources": [
+      "https://isotunes.com/products/isotunes-pro-2"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "jbl-endurance-peak-4",
+    "brand": "JBL",
+    "name": "Endurance Peak 4",
+    "categories": [
+      "sports"
+    ],
+    "type": "in-ear",
+    "summary": "Ear hooks for an active day.",
+    "features": [
+      "TwistLock ear hooks and an IP68 earbud rating.",
+      "Six microphones for calls; Bluetooth HFP documented.",
+      "Listening ANC is separate from microphone noise reduction."
+    ],
+    "consideration": "A secure fit is useful for movement. This is not rated hearing protection.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://www.jbl.com/ENDURANCE-PEAK-4.html",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://www.jbl.com/ENDURANCE-PEAK-4.html",
+      "grant": null
+    },
+    "sources": [
+      "https://www.jbl.com/ENDURANCE-PEAK-4.html"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "jlab-work-buds",
+    "brand": "JLab",
+    "name": "Work Buds",
+    "categories": [
+      "personal",
+      "enterprise"
+    ],
+    "type": "boom",
+    "summary": "In-ear listening with a detachable boom.",
+    "features": [
+      "Detachable boom microphone fits either earbud.",
+      "Bluetooth HFP and multipoint documented.",
+      "Call-microphone noise reduction and a USB-C charging dock."
+    ],
+    "consideration": "The boom gives you another way to position the microphone near your voice. Test its fit and pickup on your own phone.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://www.jlab.com/products/work-buds-in-ear-headset",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://www.jlab.com/products/work-buds-in-ear-headset",
+      "grant": null
+    },
+    "sources": [
+      "https://www.jlab.com/products/work-buds-in-ear-headset"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "shokz-opencomm2-2025",
+    "brand": "Shokz",
+    "name": "OpenComm2 2025 Upgrade",
+    "categories": [
+      "personal",
+      "enterprise"
+    ],
+    "type": "boom",
+    "summary": "A boom microphone for voice-focused work.",
+    "features": [
+      "Adjustable boom microphone with DSP call-noise reduction.",
+      "Mobile-focused Bluetooth model; HFP documented.",
+      "Open-ear design, IP55 rating and USB-C charging."
+    ],
+    "consideration": "This is the mobile headset version. The separate UC package is aimed at computer connections.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://shokz.com/products/opencomm2-2025-upgrade",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://shokz.com/products/opencomm2-2025-upgrade",
+      "grant": null
+    },
+    "sources": [
+      "https://shokz.com/products/opencomm2-2025-upgrade",
+      "https://uk.shokz.com/products/opencomm22025upgrade"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "shokz-openrun-pro-2",
+    "brand": "Shokz",
+    "name": "OpenRun Pro 2",
+    "categories": [
+      "sports"
+    ],
+    "type": "open-ear",
+    "summary": "A wraparound option for walking and activity.",
+    "features": [
+      "Open-ear design combining bone and air conduction.",
+      "Dual microphones with manufacturer-described AI call-noise reduction.",
+      "IP55 rating; standard and mini sizes."
+    ],
+    "consideration": "Choose the right frame size. Open-ear listening is not hearing protection.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://shokz.com/products/openrunpro2",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://shokz.com/products/openrunpro2",
+      "grant": null
+    },
+    "sources": [
+      "https://shokz.com/products/openrunpro2"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "sony-linkbuds-open",
+    "brand": "Sony",
+    "name": "LinkBuds Open (WF-L910)",
+    "categories": [
+      "personal",
+      "sports"
+    ],
+    "type": "open-ear",
+    "summary": "An open-ring fit for everyday conversation.",
+    "features": [
+      "Open-ring earbuds that leave the ear canal open.",
+      "Bluetooth HFP and HSP listed in Sony specifications.",
+      "IPX4 water resistance."
+    ],
+    "consideration": "This model does not offer listening ANC or conventional in-ear noise isolation.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://electronics.sony.com/audio/headphones/all-headphones/p/wfl910-b",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://electronics.sony.com/audio/headphones/all-headphones/p/wfl910-b",
+      "grant": null
+    },
+    "sources": [
+      "https://electronics.sony.com/audio/headphones/all-headphones/p/wfl910-b",
+      "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wf-l910/specifications"
+    ],
+    "reviewed": "2026-09-16"
+  },
+  {
+    "id": "soundcore-aerofit-2",
+    "brand": "soundcore",
+    "name": "AeroFit 2",
+    "categories": [
+      "sports",
+      "personal"
+    ],
+    "type": "open-ear",
+    "summary": "An open-ear option with adjustable hooks.",
+    "features": [
+      "Four-position adjustable ear hooks.",
+      "Four microphones with manufacturer-described AI call-noise reduction.",
+      "IP55 earbud rating; Bluetooth calling documented."
+    ],
+    "consideration": "An open ear canal can help you hear your surroundings. It does not guarantee awareness in every setting.",
+    "testStatus": "untested",
+    "testEvidence": null,
+    "purchase": {
+      "url": "https://www.soundcore.com/products/a3874-aerofit-2-open-earbuds",
+      "affiliate": false,
+      "network": null,
+      "activation": "pending",
+      "placements": {}
+    },
+    "image": null,
+    "imagePermission": {
+      "status": "not-cleared",
+      "source": "https://www.soundcore.com/products/a3874-aerofit-2-open-earbuds",
+      "grant": null
+    },
+    "sources": [
+      "https://www.soundcore.com/products/a3874-aerofit-2-open-earbuds"
+    ],
+    "reviewed": "2026-09-16"
+  }
+]

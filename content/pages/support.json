@@ -1,0 +1,7 @@
+{
+  "path": "/support/",
+  "title": "Setup & support",
+  "description": "Get started with Vocari: connect Bluetooth headsets, host or join, check compatibility, and troubleshoot a nearby conversation.",
+  "body": "content/pages/support.html",
+  "active": "/support/"
+}
