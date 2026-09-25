@@ -72,3 +72,79 @@ Clay requested removal of the repeated “Untested with Vocari” notices, revie
 Pre-publication validation: the static generator and git diff --check pass. Generated catalog HTML is byte-identical to production after removing exactly ten badge spans. Product information, all purchase links/tracking, photographs, CSS, JavaScript, other pages and the FlexOffers verification tag are unchanged. Browser checks passed for search, status/category filters, keyboard reset, browser Back and the mobile menu. Desktop 1440 × 1000 and mobile 390 × 844 layouts have no horizontal overflow.
 
 Only scripts/catalog.py, earbuds/index.html and these catalog/review notes are included in this production commit. Eight new product-photo drafts remain private pending source permissions; no new photo is published here. The separate corporate and mobile-app repositories are untouched. No mobile engineering or architecture finding resulted.
+
+
+## Wired-support audit — 2026-09-24 — pending Clay review
+
+Branch: `codex/wired-support-site-update`; starting website HEAD: `27185210718596a257bb17f6251c2754b8ff4a41`; initial worktree clean. No commit, push, deployment or GitHub Pages change authorized or performed.
+
+Evidence: read-only inspection of the protected mobile-app tag `known-good/vocari-pass-full-2026-09-22`, peeled to commit `daa91cba2cfa1da94769753e8abd638db27f7ed4`. Its commit message records Clay's 2026-09-22 physical validation of Bluetooth and wired-headset audio in both directions. This is the accepted physical result, not an inference from a passing website build. It does not establish universal wired compatibility or certify any catalog product. The mobile-app checkout and release directory were not modified. ScalarLabs Global AGENTS.md and the adjacent vault marker were read; neither was modified. The project-local AGENTS.md product summary was corrected.
+
+Scope: audited repository source, generated pages, metadata, instructions and maintenance documents for wired exclusions and Bluetooth/HFP-only requirements. Corrected authoritative source first, then rebuilt. Compatible wired personal-audio routes are supported where the phone/platform/headset combination provides microphone input and playback. Bluetooth support, intentional handset-fallback prohibition and listen-only exclusions remain. The revised journal post still requires Clay's human review; no publication occurred.
+
+Exact replacements below also appear in their corresponding generated pages: `content/home.html` → `index.html`; `content/pages/support.html` → `support/index.html`; `content/posts/01-your-first-nearby-conversation.json` → `updates/your-first-nearby-conversation/index.html`; `scripts/catalog.py` → `earbuds/index.html`. This review entry is the only other documentation change.
+
+### `scripts/catalog.py`
+
+| Exact old wording | Exact new wording |
+| --- | --- |
+| That’s the Bluetooth call path, not just music playback. | Music playback alone is not enough. |
+| Start with Bluetooth calling. | Start with microphone and playback. |
+| Look for a microphone and Hands-Free Profile (HFP). Then try both sides of a conversation on your actual phone. Wired audio and listen-only models are outside the current support scope. | For Bluetooth headsets, look for a microphone and Hands-Free Profile (HFP). Compatible wired personal-audio routes are supported where the phone/platform/headset combination provides microphone input and playback. Then try both sides of a conversation on your actual phone. Listen-only models are outside the current support scope. |
+
+### `content/home.html`
+
+| Exact old wording | Exact new wording |
+| --- | --- |
+| Each person needs Vocari, a compatible phone, and a Bluetooth headset with a microphone. | Each person needs Vocari, a compatible phone, and a compatible Bluetooth or wired headset with microphone input and playback. |
+| Pair a compatible Bluetooth headset to each phone. | Pair a compatible Bluetooth headset or connect a compatible wired headset to each phone. |
+| Bluetooth connects each headset to its phone. | Each headset connects to its phone through a compatible Bluetooth or wired personal-audio route. |
+| You need a Bluetooth headset that supports simultaneous microphone and playback using the Hands-Free Profile (HFP). | Bluetooth headsets need simultaneous microphone and playback using the Hands-Free Profile (HFP). Compatible wired personal-audio routes are supported where the phone/platform/headset combination provides microphone input and playback. |
+| Bring two compatible phones and Bluetooth headsets. | Bring two compatible phones and Bluetooth or wired headsets with microphone input and playback. |
+
+### `content/pages/support.html`
+
+| Exact old wording | Exact new wording |
+| --- | --- |
+| Pair a compatible Bluetooth headset to each phone. | Pair a compatible Bluetooth headset or connect a compatible wired headset to each phone. |
+| Vocari uses the Bluetooth Hands-Free Profile (HFP) for simultaneous microphone and playback. | For Bluetooth headsets, Vocari uses the Hands-Free Profile (HFP) for simultaneous microphone and playback. Compatible wired personal-audio routes are supported where the phone/platform/headset combination provides microphone input and playback. |
+| One compatible Bluetooth headset with a microphone per person. | One compatible Bluetooth or wired headset with microphone input and playback per person. |
+| Wired headsets, groups, and internet calls are not current features. | Groups and internet calls are not current features. |
+| Check each headset’s battery, Bluetooth connection and volume. | Check each headset’s Bluetooth or wired connection and volume, and its battery if applicable. |
+| Confirm the headsets are close to their paired phones and not switching to another device through multipoint. | For Bluetooth headsets, confirm they are close to their paired phones and not switching to another device through multipoint. |
+| Reconnect the headset in the phone’s Bluetooth settings. | Reconnect a Bluetooth headset in the phone’s Bluetooth settings, or reconnect the compatible wired headset. |
+
+### `content/posts/01-your-first-nearby-conversation.json`
+
+| Exact old wording | Exact new wording |
+| --- | --- |
+| each person’s Bluetooth headset supplies the microphone and playback. | each person’s compatible Bluetooth or wired headset supplies the microphone and playback. |
+| Pair your headset to your phone and make a normal call. | Pair your Bluetooth headset or connect your compatible wired headset to your phone and make a normal call. |
+| address the headset pairing, battery or phone settings first. | address the headset connection, battery if applicable, or phone settings first. |
+| Use a device with a Bluetooth calling microphone and the Hands-Free Profile (HFP). A listen-only product or a wired headset is outside Vocari’s current support scope. | For Bluetooth, use a device with a calling microphone and the Hands-Free Profile (HFP). Compatible wired personal-audio routes are supported where the phone/platform/headset combination provides microphone input and playback. A listen-only product is outside Vocari’s current support scope. |
+
+### `AGENTS.md`
+
+| Exact old wording | Exact new wording |
+| --- | --- |
+| Current product: two nearby people, simultaneous voice through Bluetooth HFP microphone/playback, no intentional handset fallback. | Current product: two nearby people, simultaneous voice through Bluetooth HFP microphone/playback or compatible wired personal-audio routes where the phone/platform/headset combination provides microphone input and playback, no intentional handset fallback. |
+
+### Checks and remaining limits
+
+- PASS: `python3 scripts/build.py`; second build reproduced all ten generated HTML files exactly.
+- PASS: `git diff --check`, Python source compilation, all content JSON parsing, `node --check home.js` and `node --check earbuds/app.js`.
+- PASS: all ten generated routes have one h1; 272 local href/src/fragment references resolve. Every page retains the same HTML element structure and attributes as starting HEAD, including all links, controls and accessibility attributes.
+- PASS: catalog records and destinations, JavaScript, CSS, `_config.yml` and CNAME are byte-identical to starting HEAD. No affiliate, legal, design or architecture change.
+- PASS: repeated repository-wide text search and inspection of rendered HTML text found no remaining active claim that wired audio is unsupported, deferred or out of scope, or that Bluetooth/HFP is the only supported personal-audio route. Historical old wording in this review table is intentionally retained for auditability.
+- LIMIT: no Chromium/Chrome executable or Playwright/Puppeteer package was available. Keyboard/mobile navigation, interactive search/filters/reset/Back and responsive layout were not rerun in a browser. Structural/attribute equivalence and unchanged behavior/style files were verified; those checks do not prove browser behavior or wrapping of the longer copy. Earlier browser results above are historical, not results of this audit. External destinations were not retested because every link is unchanged.
+
+### Wording deliberately unchanged
+
+- `scripts/build.py` home metadata/structured data describes conversations through Bluetooth headsets; `content/pages/support.json` describes connecting Bluetooth headsets. These are still true, nonexclusive descriptions, not requirements that exclude wired routes.
+- The headset-selection guide describes Bluetooth HFP as a calling route and manufacturer calling evidence as a reason to research a product. Its description mentions the Bluetooth call path. These remain valid Bluetooth guidance, not an assertion that wired routes are unsupported.
+- The first-session guide description says “From pairing your earbuds”; its diagnostic example says “Bluetooth didn’t work”. These remain valid Bluetooth examples, while its actual instructions now include wired connections.
+- “Compatible means more than Bluetooth”, radio/permission instructions, manufacturer Bluetooth specifications, affiliate application descriptions, listen-only exclusions and the current catalog's untested status remain. The accepted result does not contradict these or establish model-specific catalog certification.
+- README's “A local checkpoint is not evidence of headset compatibility” remains a caution against inferring physical tests from a checkpoint alone. This task uses Clay's explicit physical validation recorded in the supplied checkpoint.
+- No questionable negative wired-support claim was left active. All old exclusions retained here are explicitly historical quotations.
+
+Stopped for Clay's approval. No commit, push, deployment or GitHub Pages modification.
