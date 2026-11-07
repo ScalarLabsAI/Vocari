@@ -29,3 +29,8 @@ For every image added, record exact model/variant, asset origin, license/grant U
 ## Approved owner-photo publication — 2026-09-16
 
 The initial all-slots-pending status above is superseded for Bose QuietComfort Ultra Earbuds (2nd Gen), black, and JBL Endurance Peak 4, black. Clay supplied original photographs, requested landscape edits, reviewed the disclosed AI-assisted results and explicitly approved publishing both cards. See [PRODUCT_PHOTO_GRANTS.md](PRODUCT_PHOTO_GRANTS.md) for provenance, filenames, dimensions and permissions. No Amazon images were used. Other eight products remain uncleared; purchase destinations are unchanged.
+
+## Store marks — 2026-11-07
+
+- `assets/images/app-store-badge.svg` is the unmodified English download badge from [Apple’s marketing tools](https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us).
+- `assets/images/android-robot.svg` is the flat mark from [Google’s Android brand guidelines](https://developer.android.com/distribute/marketing-tools/brand-guidelines#android_robot). The SVG has a view box for responsive sizing. The homepage footer includes the CC BY 3.0 attribution.

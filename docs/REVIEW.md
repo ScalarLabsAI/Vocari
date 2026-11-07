@@ -148,3 +148,9 @@ Exact replacements below also appear in their corresponding generated pages: `co
 - No questionable negative wired-support claim was left active. All old exclusions retained here are explicitly historical quotations.
 
 Stopped for Clay's approval. No commit, push, deployment or GitHub Pages modification.
+
+## Vocari store links — 2026-11-07
+
+The download section now links directly to the public App Store and Google Play listings. It uses the official App Store badge and Google’s Android robot, with attribution in the homepage footer. Current public pages and download metadata reflect availability on both stores.
+
+Static generation and whitespace checks passed. All ten generated pages were checked for valid document headers, local asset and route references, and current release status. Both download buttons were checked against the official listings. The generated equipment catalog differs only in the shared availability footer.
