@@ -154,3 +154,16 @@ Stopped for Clay's approval. No commit, push, deployment or GitHub Pages modific
 The download section now links directly to the public App Store and Google Play listings. It uses the official App Store badge and Google’s Android robot, with attribution in the homepage footer. Current public pages and download metadata reflect availability on both stores.
 
 Static generation and whitespace checks passed. All ten generated pages were checked for valid document headers, local asset and route references, and current release status. Both download buttons were checked against the official listings. The generated equipment catalog differs only in the shared availability footer.
+
+
+## Exact in-app Terms publication — 2026-11-12
+
+Clay explicitly requested publishing the current in-app Terms on ScalarLabs and directing the existing “Read the official terms of use” link to them, with no other website or app changes. This narrow publication does not include the separate November 5 legal-review drafts, which remain preserved in their original checkouts.
+
+Prepared on Mac Air in fresh clones from GitHub main: ScalarLabsSite `27f88f0c25834d399f10deda2f9777ff64b4b27d`; Vocari website `7d58016279dcf150d9bf892ec02344368ab37d76`; task branch `codex/publish-vocari-terms-2026-11-12`. ScalarLabs adds only `/vocari/terms/index.html`. This website changes only the existing link destination in `content/pages/terms.html` and generated `terms/index.html` to `https://scalarlabs.ai/vocari/terms/`, plus this evidence entry.
+
+Text source: Vocari-App `docs/legal/terms.txt`, version `2026-11-05.2`, unchanged from app HEAD `dff19e833b16c4dd87c07d0cd3c214e72ec5a61a`. Decoded Android and iOS embedded Terms both match its 11,507 UTF-8 bytes. SHA-256: `2ca4dc26a7c2c535d20a42d0bf5a4c32f93130158edadec91097896f53e9dc5a`. Decoding the new HTML article and reconstructing its 39 text blocks produces exactly the same bytes, including all ten numbered sections. No legal wording was edited.
+
+Prepublication checks: source/live starting terms pages match (ignoring ScalarLabs’ existing hosting-injected beacon); static generation succeeds; each changed public Vocari file equals its baseline with one href substitution; every other generated page is unchanged. Independent text/scope review passed. New Terms page visually checked at desktop and 390-pixel phone width, with no horizontal page overflow. The existing link label and keyboard reachability are retained. Public readback and end-to-end link navigation are the remaining publication checks at this commit; these website checks make no app runtime or physical-device claim.
+
+Documentation check: no new mobile engineering finding or architectural fact; app source and canonical app documentation remain untouched.
