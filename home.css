@@ -6,6 +6,15 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 
 .primary-nav .button{color:#fff}.primary-nav .button:hover{color:#fff}
+.chatgpt-skill{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:40px;align-items:center;margin-top:32px;padding:32px 40px;border:1px solid var(--line);border-radius:20px;background:#f0f5fc}
+.chatgpt-skill h2{font-size:clamp(1.8rem,3vw,2.3rem);margin-bottom:16px}
+.chatgpt-skill p{margin-bottom:12px}
+.chatgpt-skill p:last-child{margin-bottom:0}
+.chatgpt-skill-actions{text-align:center}
+.chatgpt-skill-actions .button{width:100%}
+.chatgpt-skill-actions .button:disabled{background:#e0e8f3;color:#4c5c73;border-color:#c5d1e2;cursor:not-allowed;transform:none;opacity:1}
+.chatgpt-skill-actions .small{margin:12px 0 0}
+@media(max-width:760px){.chatgpt-skill{grid-template-columns:1fr;gap:24px;padding:28px 24px}.chatgpt-skill-actions{max-width:280px;text-align:left}}
 @media(max-width:760px){.primary-nav .header-cta{display:inline-flex}.hero h1{font-size:clamp(2.6rem,11vw,5rem)}}
 
 .store-option img {

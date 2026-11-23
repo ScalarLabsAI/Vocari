@@ -178,3 +178,25 @@ The new source fragment/metadata and generated page contain the complete in-app 
 Prepublication validation: static generation and whitespace checks pass; independent HTML/text comparison passes; every existing generated page changes only the shared footer terms href/label, while the existing `/terms/` overview additionally changes only its terms CTA href/label. The sitemap adds only the new URL. Desktop and 390-pixel mobile rendering show the requested heading with no horizontal overflow. Existing styles, scripts other than the footer template, assets, product data, store links, app files and the entire ScalarLabs repository remain unchanged. Production HTTPS readback and live link navigation follow publication; no app runtime acceptance is inferred.
 
 Documentation check: tests and narrow publication scope are recorded here; no new mobile engineering finding or architecture change.
+
+## ChatGPT Skill! launch draft — 2026-11-23
+
+Prepared on `codex/chatgpt-skill-2026-11-23` from clean website `main` at `c66453f2ce7d8c906f43b9492ac0a0188f8d1f00`. This is a review draft for a dedicated branch and draft pull request. It is not approved for merge or publication.
+
+Added a compact homepage section immediately after the existing app-download panel, using the exact heading and CTA label **ChatGPT Skill!**. It describes the **Vocari** skill's reports, crew handovers, decisions, and next actions from selected saved transcripts or work notes. The copy identifies optional online processing in ChatGPT, an internet requirement, and no Vocari account requirement. Existing app, headset, affiliate, store, and legal content is preserved.
+
+No public installation URL has been verified. The CTA is a native disabled button with `aria-disabled`, an associated explanatory status, and the visible text “Public installation link coming soon.” It has no link destination. An adjacent source comment marks where the verified public URL must be inserted before launch; no private skill-detail URL is included.
+
+Checks completed:
+
+- `python3 scripts/build.py` and `git diff --check` passed.
+- Removing only the new section reproduces both baseline `content/home.html` and generated `index.html` exactly. Existing homepage anchor destinations remain unchanged.
+- New styles are scoped to `.chatgpt-skill` and its children. No JavaScript, dependency, asset, tracking, or route was added.
+- The generator reordered existing sitemap entries without changing destinations. The baseline `sitemap.xml` bytes were restored to keep this draft limited to the homepage addition.
+
+Outstanding before publication:
+
+- Obtain and independently verify the public Vocari installation URL, replace the disabled control, and check the destination as a user without the owner's private skill access.
+- Review desktop/mobile rendering and keyboard behavior. A local Playwright/Chromium attempt failed before page load because process-singleton socket creation was denied by the environment; no browser or visual pass is claimed.
+- Read the canonical ScalarLabs Global `AGENTS.md` at `/srv/scalarlabs/vault/AGENTS.md`. That file is not mounted here and was not read during this pass.
+- Complete owner review and the applicable publication approval. No deployment or mobile-app acceptance result is implied by these website checks.
